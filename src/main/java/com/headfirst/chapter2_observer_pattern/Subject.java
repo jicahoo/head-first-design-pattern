@@ -15,8 +15,8 @@ package com.headfirst.chapter2_observer_pattern;
  * Any of them can not be removed. And no need more other methods to support the interaction between them.
  * Exact relationship defined by these abstract methods/interfaces.
  *
- * When you design OO program, key point is to design the relationship/interaction between TWO objects.
- * Created by zhangj52 on 1/21/2017.
+ * when you design oo program, key point is to design the relationship/interaction between two objects.
+ * created by zhangj52 on 1/21/2017.
  */
 public interface Subject {
     void notifyObservers();
